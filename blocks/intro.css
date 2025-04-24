@@ -1,0 +1,59 @@
+.intro {
+  width: 80%;
+  margin: 0 auto;
+}
+.intro__title {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+}
+.intro__cita {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+.intro__cita-author {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+.intro__texto {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.intro__cita-align {
+  text-align: right;
+}
+@media screen AND (max-width: 768px) {
+  .intro__title {
+    font-size: 34px;
+  }
+  .intro__cita {
+    font-size: 18px;
+  }
+  .intro__cita-author {
+    font-size: 18px;
+  }
+  .intro__texto {
+    font-size: 12px;
+  }
+}
+@media screen AND (max-width: 320px) {
+  .intro__title {
+    font-size: 24px;
+  }
+  .intro__cita {
+    font-size: 16px;
+  }
+  .intro__cita-author {
+    font-size: 16px;
+  }
+  .intro__texto {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,36 @@
+.header {
+  text-align: center;
+}
+.header__title {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+}
+.header__subtitle {
+  font-family: Inter, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 100px;
+}
+.header__image {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen AND (max-width: 768px) {
+  .header__title {
+    font-size: 70px;
+  }
+  .header__subtitle {
+    font-size: 20px;
+  }
+}
+@media screen AND (max-width: 320px) {
+  .header__title {
+    font-size: 40px;
+  }
+  .header__subtitle {
+    font-size: 10px;
+  }
+}
