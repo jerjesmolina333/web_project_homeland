@@ -14,11 +14,13 @@
   font-weight: 400;
   line-height: 34px;
 }
-.intro__cita-author {
+.intro__cita-autor {
+  width: 80vw;
   font-family: Inter, Arial, sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
+  text-align: right;
 }
 .intro__texto {
   font-family: Inter, Arial, sans-serif;
@@ -35,6 +37,7 @@
   }
   .intro__cita {
     font-size: 18px;
+    text-align: right;
   }
   .intro__cita-author {
     font-size: 18px;
@@ -45,13 +48,17 @@
 }
 @media screen AND (max-width: 320px) {
   .intro__title {
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .intro__cita {
     font-size: 16px;
+    line-height: 20px;
+    font-weight: 200px;
   }
   .intro__cita-author {
-    font-size: 16px;
+    font-size: 10px;
+    font-weight: 100px;
   }
   .intro__texto {
     font-size: 11px;

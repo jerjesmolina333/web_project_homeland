@@ -1,0 +1,132 @@
+.content {
+  margin: 0;
+  align-content: center;
+}
+.content__places {
+  max-width: 1000px;
+  margin: auto;
+  /* border: 1px red solid; */
+  padding: 8% 8%;
+}
+.content__place {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 20% 18% auto;
+  gap: 10px 10px;
+  /* border: 1px red solid; */
+  padding-top: 5%;
+}
+.content__photo-button {
+  /* border: 1px greenyellow solid; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10%;
+}
+.content__photo-grid {
+  width: 95vw;
+  margin: 0;
+  margin: 0 auto;
+  padding: 0 auto;
+  margin-top: 5vh;
+  /* border: 1px red solid;
+  background-color: aqua; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  row-gap: 1%;
+  column-gap: 1%;
+}
+.content_photo-container {
+  /* border: 1px greenyellow solid; */
+  width: 98%;
+}
+.place-title {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0%;
+}
+.place-subtitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.place-subtitle::before {
+  content: "ARTISTAS";
+}
+.place-image {
+  width: 40vw;
+  height: calc(40vw * 1.1);
+}
+.place__paragraphs {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column: 2;
+  margin: auto 0;
+  /* border: 1px greenyellow solid; */
+}
+.place__paragraph {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  /* border: 1px yellow solid; */
+}
+.place__button {
+  color: white;
+  /* background-image: linear-gradient(#0278fe #003a7b); */
+  /* background-color: blue; */
+  background-image: linear-gradient(#0278fe, #003a7b);
+  width: 90%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.place__link {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+@media screen AND (max-width: 768px) {
+  .content__photo-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .place-title {
+    font-size: 40px;
+  }
+}
+@media screen AND (max-width: 350px) {
+  .place-image {
+    width: 40vw;
+    height: calc(40vw * 1.1);
+  }
+}
+@media screen AND (max-width: 320px) {
+  .content__photo-grid {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  .place-title {
+    font-size: 20px;
+    font-weight: 200px;
+  }
+  .content__place {
+    display: block;
+  }
+  .place__link {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
