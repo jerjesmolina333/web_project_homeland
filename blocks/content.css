@@ -6,7 +6,7 @@
   max-width: 1000px;
   margin: auto;
   /* border: 1px red solid; */
-  padding: 8% 8%;
+  padding: 0;
 }
 .content__place {
   color: white;
@@ -14,15 +14,19 @@
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 20% 18% auto;
   column-gap: 3%;
-  /* border: 1px red solid; */
-  padding-top: 5%;
+  /* border: 1px greenyellow solid; */
+  padding-top: 1%;
+  height: 150vh;
+  margin: 0;
 }
 .content__photo-button {
-  /* border: 1px greenyellow solid; */
+  /* border: 1px red solid; */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   row-gap: 10%;
+  height: auto;
+  margin: 0;
 }
 .content__photo-grid {
   width: 95vw;
@@ -42,26 +46,7 @@
   /* border: 1px greenyellow solid; */
   width: 98%;
 }
-.title__format {
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 65px;
-  line-height: 76px;
-  letter-spacing: 0;
-}
-.place-subtitle {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-}
-.place-subtitle::before {
-  content: "ARTISTAS";
-}
+
 .place-image {
   width: 40vw;
   height: calc(40vw * 1.1);
@@ -70,8 +55,9 @@
   grid-row-start: 2;
   grid-row-end: 4;
   grid-column: 2;
-  margin-top: 0;
+  margin: 0;
   /* border: 1px greenyellow solid; */
+  height: 50vh;
 }
 .place__paragraph {
   font-family: Inter;
@@ -79,7 +65,7 @@
   font-size: 18px;
   line-height: 163%;
   letter-spacing: 0;
-  /* border: 1px yellow solid; */
+  /* border: 1px red solid; */
 }
 .place__button {
   color: white;
