@@ -2,6 +2,26 @@
   margin: 0;
   align-content: center;
 }
+.title__format {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 76px;
+  letter-spacing: 0;
+}
+.place-subtitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.place-subtitle::before {
+  content: "ARTISTAS";
+}
 .content__places {
   max-width: 1000px;
   margin: auto;
