@@ -45,7 +45,7 @@
 .place-title {
   font-family: Inter;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 65px;
   line-height: 76px;
   letter-spacing: 0%;
 }
@@ -70,7 +70,7 @@
   grid-row-start: 2;
   grid-row-end: 4;
   grid-column: 2;
-  margin: auto 0;
+  margin: 0;
   /* border: 1px greenyellow solid; */
 }
 .place__paragraph {
