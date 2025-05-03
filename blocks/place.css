@@ -1,0 +1,18 @@
+.place-image {
+  width: 40vw;
+  height: calc(40vw * 1.1);
+}
+@media screen AND (max-width: 350px) {
+  .place-image {
+    width: 40vw;
+    height: calc(40vw * 1.1);
+  }
+}
+.place__paragraphs {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column: 2;
+  margin: 0;
+  /* border: 1px greenyellow solid; */
+  height: 50vh;
+}
