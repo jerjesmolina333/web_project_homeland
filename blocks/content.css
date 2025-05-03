@@ -70,7 +70,7 @@
   grid-row-start: 2;
   grid-row-end: 4;
   grid-column: 2;
-  margin-top: 1px;
+  margin-top: 0;
   /* border: 1px greenyellow solid; */
 }
 .place__paragraph {
