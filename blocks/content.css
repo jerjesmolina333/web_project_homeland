@@ -42,7 +42,7 @@
   /* border: 1px greenyellow solid; */
   width: 98%;
 }
-.place__title {
+.title-format {
   font-family: Inter;
   font-weight: 500;
   font-size: 65px;
@@ -112,7 +112,7 @@
   .content__photo-grid {
     grid-template-columns: 1fr 1fr;
   }
-  .place-title {
+  .title-format {
     font-size: 40px;
   }
 }
@@ -127,7 +127,7 @@
     grid-template-columns: 1fr;
     width: 90%;
   }
-  .place-title {
+  .title-format {
     font-size: 20px;
     font-weight: 200;
   }
