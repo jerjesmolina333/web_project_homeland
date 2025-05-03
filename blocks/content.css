@@ -38,11 +38,11 @@
   row-gap: 1%;
   column-gap: 1%;
 }
-.content_photo-container {
+.content__photo-container {
   /* border: 1px greenyellow solid; */
   width: 98%;
 }
-.place-title {
+.place__title {
   font-family: Inter;
   font-weight: 500;
   font-size: 65px;
