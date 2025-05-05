@@ -74,7 +74,7 @@
   letter-spacing: 0;
   /* border: 1px red solid; */
 }
-.place__button {
+/* .place__button {
   color: white;
   /* background-image: linear-gradient(#0278fe #003a7b); */
   /* background-color: blue; */
@@ -84,7 +84,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .content__place_link {
   font-family: Inter;
   font-weight: 600;
