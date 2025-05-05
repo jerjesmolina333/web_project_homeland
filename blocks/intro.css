@@ -14,7 +14,7 @@
   font-weight: 400;
   line-height: 34px;
 }
-.intro__cita-autor {
+.intro__cita_theme_autor {
   width: 80vw;
   font-family: Inter, Arial, sans-serif;
   font-size: 24px;
@@ -28,7 +28,7 @@
   font-weight: 400;
   line-height: 1.6;
 }
-.intro__cita-align {
+.intro__cita_author {
   text-align: right;
 }
 @media screen AND (max-width: 768px) {

@@ -9,7 +9,7 @@
   line-height: 76px;
   letter-spacing: 0;
 }
-.place-subtitle {
+.content__place_place_subtitle {
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
@@ -19,7 +19,7 @@
   flex-direction: column;
   align-self: flex-end;
 }
-.place-subtitle::before {
+.content__place_place_subtitle::before {
   content: "ARTISTAS";
 }
 .content__places {
@@ -39,7 +39,7 @@
   height: 150vh;
   margin: 0;
 }
-.content__photo-button {
+.content__place_photo-button {
   /* border: 1px red solid; */
   display: grid;
   grid-template-columns: 1fr;
@@ -48,7 +48,66 @@
   height: auto;
   margin: 0;
 }
-.content__photo-grid {
+.place-image {
+  width: 40vw;
+  height: calc(40vw * 1.1);
+}
+@media screen AND (max-width: 350px) {
+  .place-image {
+    width: 40vw;
+    height: calc(40vw * 1.1);
+  }
+}
+.content__place_paragraphs {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column: 2;
+  margin: 0;
+  /* border: 1px greenyellow solid; */
+  height: 50vh;
+}
+.content__place_paragraph {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0;
+  /* border: 1px red solid; */
+}
+.place__button {
+  color: white;
+  /* background-image: linear-gradient(#0278fe #003a7b); */
+  /* background-color: blue; */
+  background-image: linear-gradient(#0278fe, #003a7b);
+  width: 90%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content__place_link {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: white;
+  /* background-image: linear-gradient(#0278fe #003a7b); */
+  /* background-color: blue; */
+  background-image: linear-gradient(#0278fe, #003a7b);
+  width: 90%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen AND (max-width: 320px) {
+  .place__link {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+.content__photo_grid {
   width: 95vw;
   margin: 0;
   margin: 0 auto;
@@ -62,7 +121,7 @@
   row-gap: 1%;
   column-gap: 1%;
 }
-.content__photo-container {
+.content__photo_container {
   /* border: 1px greenyellow solid; */
   width: 98%;
 }
