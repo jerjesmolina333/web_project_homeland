@@ -29,8 +29,14 @@
   line-height: 1.6;
 }
 .intro__cita_author {
+  width: 80vw;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
   text-align: right;
 }
+
 @media screen AND (max-width: 768px) {
   .intro__title {
     font-size: 34px;
