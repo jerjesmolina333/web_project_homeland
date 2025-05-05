@@ -2,7 +2,7 @@
   margin: 0;
   align-content: center;
 }
-.title__format {
+.content__place__theme_title {
   font-family: Inter;
   font-weight: 500;
   font-size: 65px;
@@ -48,12 +48,12 @@
   height: auto;
   margin: 0;
 }
-.place-image {
+.content__place__place-image {
   width: 40vw;
   height: calc(40vw * 1.1);
 }
 @media screen AND (max-width: 350px) {
-  .place-image {
+  .content__place__place-image {
     width: 40vw;
     height: calc(40vw * 1.1);
   }
