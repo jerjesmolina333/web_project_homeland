@@ -57,7 +57,7 @@
   width: 40vw;
   height: calc(40vw * 1.05);
 }
-.places__button {
+.content__place_button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -149,7 +149,7 @@
   .content__place_title {
     font-size: 30px;
   }
-  .places__button {
+  .content__place_button {
     font-size: 15px;
   }
 }
@@ -182,7 +182,7 @@
   .content__place_subtitle {
     font-size: 15px;
   }
-  .places__button {
+  .content__place_button {
     font-size: 12px;
   }
 }
@@ -200,7 +200,7 @@
   .content__place_subtitle {
     font-size: 12px;
   }
-  .places__button {
+  .content__place_button {
     font-size: 9px;
   }
 }
@@ -225,7 +225,7 @@
   .content__place_paragraph {
     font-size: 10px;
   }
-  .places__button {
+  .content__place_button {
     font-size: 8px;
   }
 }
@@ -236,7 +236,7 @@
     max-width: calc(25vh * 1.3);
     object-fit: fill;
   }
-  .places__button {
+  .content__place_button {
     font-size: 6px;
     line-height: 18px;
     height: 5vh;
