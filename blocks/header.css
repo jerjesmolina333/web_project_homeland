@@ -35,9 +35,9 @@
 }
 @media screen AND (max-width: 320px) {
   .header__title {
-    font-size: 40px;
+    font-size: 20px;
   }
   .header__subtitle {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
