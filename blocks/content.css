@@ -87,7 +87,7 @@
   row-gap: 0.5%;
   column-gap: 10px;
 }
-.content__photo_container {
+.content__photo-container {
   /* border: 1px greenyellow solid; */
   max-height: 22vh;
   max-width: calc(22vh * 1.3);
