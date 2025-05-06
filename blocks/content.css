@@ -22,7 +22,7 @@
   flex-direction: column;
   align-self: flex-end;
 }
-.content__place_place_subtitle::before {
+.content__place_subtitle::before {
   content: "ARTISTAS";
 }
 .content__places {
@@ -175,7 +175,7 @@
   .content__place_title {
     font-size: 20px;
   }
-  .content__place_place_subtitle {
+  .content__place_subtitle {
     font-size: 15px;
   }
   .content__place_link {
@@ -193,7 +193,7 @@
     font-size: 20px;
   }
 
-  .content__place_place_subtitle {
+  .content__place_subtitle {
     font-size: 12px;
   }
   .content__place_link {
