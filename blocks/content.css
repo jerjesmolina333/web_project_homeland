@@ -58,20 +58,24 @@
   height: calc(40vw * 1.05);
 }
 .content__place_link {
-  font-family: Inter;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0;
-  color: white;
-  text-decoration: none;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
-  width: 90%;
-  height: 8vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-area: button;
+  color: #fff;
+  margin-top: 15px;
+  max-width: 289px;
+  height: 48px;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .content__photo-grid {
