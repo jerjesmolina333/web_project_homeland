@@ -1,30 +1,8 @@
 .content {
-  margin: 0;
-  align-content: center;
+  /* margin: 0;
+  align-content: center; */
 }
-.content__place_title {
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 55px;
-  line-height: 65px;
-  letter-spacing: 0;
-  width: 40vw;
-  /* border: 1px green solid; */
-  /* margin-bottom: 100px; */
-}
-.content__place_subtitle {
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-}
-.content__place_subtitle::before {
-  content: "ARTISTAS";
-}
+
 .content__places {
   max-width: 1000px;
   margin: auto;
@@ -42,8 +20,33 @@
   height: auto;
   margin: 0;
 }
+.content__place_title {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 65px;
+  letter-spacing: 0;
+  width: 40vw;
+  border: 1px green solid;
+  height: 10vh;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.content__subtitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0;
+  /* border: 1px blue solid; */
+  display: flex;
+  flex-direction: column;
+}
+.content__subtitle::before {
+  content: "ARTISTAS";
+}
 
-.content__place_photo_button {
+.content__container {
   /* border: 1px red solid; */
   display: grid;
   grid-template-columns: 1fr;
@@ -52,16 +55,20 @@
   height: auto;
   /* height: 90vh; */
   margin: 0;
+  padding-top: 1%;
 }
 .content__place_image {
   width: 40vw;
   height: calc(40vw * 1.05);
 }
+.content__place_image:hover {
+  opacity: 0.5;
+}
+
 .content__place_button {
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-area: button;
   color: #fff;
   margin-top: 15px;
   max-width: 289px;
@@ -76,6 +83,13 @@
   line-height: 22px;
   text-decoration: none;
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.content__place_button:hover {
+  background-image: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
 }
 
 .content__photo-grid {
@@ -179,7 +193,7 @@
   .content__place_title {
     font-size: 20px;
   }
-  .content__place_subtitle {
+  .content__subtitle {
     font-size: 15px;
   }
   .content__place_button {
@@ -197,7 +211,7 @@
     font-size: 20px;
   }
 
-  .content__place_subtitle {
+  .content__subtitle {
     font-size: 12px;
   }
   .content__place_button {
