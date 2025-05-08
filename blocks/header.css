@@ -5,8 +5,13 @@
   font-family: Inter, Arial, sans-serif;
   font-size: 96px;
   font-weight: 900;
-  line-height: 100px;
+  line-height: 1;
   text-align: center;
+  margin: 0;
+  /* border: 1px red solid; */
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .header__subtitle {
   font-family: Inter, Arial, sans-serif;
@@ -24,10 +29,14 @@
 
 @media screen AND (max-width: 768px) {
   .header__title {
-    font-size: 70px;
+    font-size: 45px;
+    font-weight: 100;
+    line-height: 1;
   }
   .header__subtitle {
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 10;
+    line-height: 1;
   }
   .header__image {
     width: 98%;
@@ -35,9 +44,14 @@
 }
 @media screen AND (max-width: 320px) {
   .header__title {
-    font-size: 20px;
+    height: auto;
+    font-size: 15px;
+    line-height: 50px;
+    height: 10vh;
   }
   .header__subtitle {
-    font-size: 8px;
+    font-size: 6px;
+    line-height: 10px;
+    font-weight: 30;
   }
 }

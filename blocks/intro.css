@@ -42,31 +42,43 @@
     font-size: 34px;
   }
   .intro__cita {
-    font-size: 18px;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1.1;
     text-align: right;
   }
   .intro__cita-author {
-    font-size: 18px;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 1.1;
+    text-align: right;
   }
   .intro__texto {
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 20;
+  }
+  .intro__title {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.5;
   }
 }
 @media screen AND (max-width: 320px) {
   .intro__title {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.2;
   }
   .intro__cita {
-    font-size: 16px;
-    line-height: 1.1;
-    font-weight: 200;
+    font-size: 8px;
+    line-height: 1;
+    font-weight: 20;
   }
   .intro__cita-author {
-    font-size: 10px;
-    font-weight: 100;
+    font-size: 8px;
+    font-weight: 20;
   }
   .intro__texto {
-    font-size: 11px;
+    font-size: 7px;
+    width: 90%;
   }
 }

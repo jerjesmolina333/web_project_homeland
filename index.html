@@ -17,8 +17,8 @@
   </head>
   <body>
     <div class="page">
-      <div class="page__logo">
-        <img src="./images/logo.svg" alt="Logotipo" />
+      <div class="page__logo-container">
+        <img src="./images/logo.svg" class="page__logo" alt="Logotipo" />
       </div>
       <header class="header">
         <h1 class="header__title">De patria a patria</h1>
@@ -63,67 +63,56 @@
       </div>
       <main class="content">
         <section class="content content__photo-grid">
-          <div>
-            <img
-              src="./images/image1.png"
-              class="content content__photo-container"
-              alt="imagen 1"
-            />
-          </div>
-          <div>
-            <img
-              src="./images/image2.png"
-              class="content content__photo-container"
-              alt="imagen 2"
-            />
-          </div>
-          <div>
-            <img
-              src="./images/image3.png"
-              class="content content__photo-container"
-              alt="imagen 3"
-            />
-          </div>
-          <div>
-            <img
-              src="./images/image4.png"
-              class="content content__photo-container"
-              alt="imagen 4"
-            />
-          </div>
-          <div>
-            <img
-              src="./images/image5.png"
-              class="content content__photo-container"
-              alt="imagen 5"
-            />
-          </div>
-          <div>
-            <img
-              src="./images/image6.png"
-              class="content content__photo-container"
-              alt="imagen 6"
-            />
-          </div>
-          <div>
-            <img
-              src="./images/image7.png"
-              class="content content__photo-container"
-              alt="imagen 7"
-            />
-          </div>
-          <div>
-            <img
-              src="./images/image8.png"
-              class="content content__photo-container"
-              alt="imagen 8"
-            />
-          </div>
+          <img
+            src="./images/image1.png"
+            class="content content__photo-container"
+            alt="imagen 1"
+          />
+          <img
+            src="./images/image2.png"
+            class="content content__photo-container"
+            alt="imagen 2"
+          />
+          <img
+            src="./images/image3.png"
+            class="content content__photo-container"
+            alt="imagen 3"
+          />
+
+          <img
+            src="./images/image4.png"
+            class="content content__photo-container"
+            alt="imagen 4"
+          />
+
+          <img
+            src="./images/image5.png"
+            class="content content__photo-container"
+            alt="imagen 5"
+          />
+
+          <img
+            src="./images/image6.png"
+            class="content content__photo-container"
+            alt="imagen 6"
+          />
+
+          <img
+            src="./images/image7.png"
+            class="content content__photo-container"
+            alt="imagen 7"
+          />
+
+          <img
+            src="./images/image8.png"
+            class="content content__photo-container"
+            alt="imagen 8"
+          />
         </section>
         <section class="content__places">
           <div class="content__place">
-            <h2 class="content__place content__place_title">Gricieth,Gales</h2>
-            <h3 class="content content__subtitle">
+            <h2 class="content__title">Gricieth,Gales</h2>
+            <h3 class="content__subtitle">
               Warren, editor jefe Kseniya Glagoleva, gerente de proyectos
             </h3>
             <div class="content content__container">
@@ -133,35 +122,37 @@
                 alt="Cricieth,Gales"
               />
               <a
-                class="content__place content__place_button"
+                class="content__button"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
                 >Compra esta obra como NFT</a
               >
             </div>
 
-            <div class="content__place content__place_paragraphs">
-              <p class="content__place content__place_paragraph">
-                Las ruinas medievales del castillo de Cricieth dominan la ciudad
-                desde una roca que extiende sobre el mar. Se cree que fue
-                construido por Llewelyn el Grande en el S. XIII. 800 años
-                después, la autodenominada Perla de Gales en las costas de
-                Snowdonia, se ha convertido en un popular destino turístico
-                durante los meses de verano.
-              </p>
-              <p class="content__place content__place_paragraph">
-                A pocos pasos de camino al castillo, puedes disfrutar de los
-                mejores helados del mundo en Cadwalader's, cuyo ingrediente
-                secreto se rumorea que son algas marinas de la localidad. Otra
-                cosa por la que es famosa Cricieth es por haber ganado el premio
-                *Gales en flor* durante cinco años seguidos por sus
-                espectaculares muestras florales alrededor de la ciudad. También
-                vio nacer a David Lloyd George, el único galés que ha sido
-                Primer Ministro del Reino Unido.
-              </p>
+            <div class="content__paragraphs">
+              <div class="content__pcontainer">
+                <p class="content__paragraph">
+                  Las ruinas medievales del castillo de Cricieth dominan la
+                  ciudad desde una roca que extiende sobre el mar. Se cree que
+                  fue construido por Llewelyn el Grande en el S. XIII. 800 años
+                  después, la autodenominada Perla de Gales en las costas de
+                  Snowdonia, se ha convertido en un popular destino turístico
+                  durante los meses de verano.
+                </p>
+                <p class="content__paragraph">
+                  A pocos pasos de camino al castillo, puedes disfrutar de los
+                  mejores helados del mundo en Cadwalader's, cuyo ingrediente
+                  secreto se rumorea que son algas marinas de la localidad. Otra
+                  cosa por la que es famosa Cricieth es por haber ganado el
+                  premio *Gales en flor* durante cinco años seguidos por sus
+                  espectaculares muestras florales alrededor de la ciudad.
+                  También vio nacer a David Lloyd George, el único galés que ha
+                  sido Primer Ministro del Reino Unido.
+                </p>
+              </div>
             </div>
           </div>
           <div class="content__place">
-            <h2 class="content__place content__place_title">Berea,EE.UU.</h2>
+            <h2 class="content__place content__title">Berea,EE.UU.</h2>
             <h3 class="content content__subtitle">
               Travis Turner, autor y editor
             </h3>
@@ -172,37 +163,38 @@
                 alt="Berea"
               />
               <a
-                class="content__place content__place_button"
+                class="content__place content__button"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
                 >Compra esta obra como NFT
               </a>
             </div>
 
-            <div class="content__place content__place_paragraphs">
-              <p class="content__place content__place_paragraph">
-                Berea es una pequeña ciudad ubicada en la parte central de
-                Kentucky. La ciudad está rodeada por hermosos bosques y campos.
-                Es conocida como la capital de la artesanía del estado, y sus
-                visitantes hallarán infinitas posibilidades para ir de compras:
-                tiendas de joyas, velas y artículos de madera artesanales;
-                galerías, talleres de vidrio y más. La ciudad celebra un
-                festival anual que rinde tributo al "spoonbread", un platillo
-                local hecho de pan de maíz y que se sirve con una cuchara de
-                madera.
-              </p>
-              <p class="content__place content__place_paragraph">
-                Aunque, probablemente es mejor conocida por su universidad. El
-                Berea College fue fundado en 1855 y fue la primera universidad
-                sureña integrada racialmente, así como la primera en ser
-                coeducacional. Algo que en cierta manera la hace única, es que
-                no cobra colegiatura: cada estudiante recibe una beca del 100%.
-              </p>
+            <div class="content__paragraphs">
+              <div class="content__pcontainer">
+                <p class="content__paragraph">
+                  Berea es una pequeña ciudad ubicada en la parte central de
+                  Kentucky. La ciudad está rodeada por hermosos bosques y
+                  campos. Es conocida como la capital de la artesanía del
+                  estado, y sus visitantes hallarán infinitas posibilidades para
+                  ir de compras: tiendas de joyas, velas y artículos de madera
+                  artesanales; galerías, talleres de vidrio y más. La ciudad
+                  celebra un festival anual que rinde tributo al "spoonbread",
+                  un platillo local hecho de pan de maíz y que se sirve con una
+                  cuchara de madera.
+                </p>
+                <p class="content__paragraph">
+                  Aunque, probablemente es mejor conocida por su universidad. El
+                  Berea College fue fundado en 1855 y fue la primera universidad
+                  sureña integrada racialmente, así como la primera en ser
+                  coeducacional. Algo que en cierta manera la hace única, es que
+                  no cobra colegiatura: cada estudiante recibe una beca del
+                  100%.
+                </p>
+              </div>
             </div>
           </div>
           <div class="content__place">
-            <h2 class="content__place content__place_title">
-              Muramvya, Burundi
-            </h2>
+            <h2 class="content__place content__title">Muramvya, Burundi</h2>
             <h3 class="content content__subtitle">
               Grevisse Kenguruka, editor técnico
             </h3>
@@ -214,46 +206,49 @@
               />
               <!-- <button class="place__button"> -->
               <a
-                class="content__place content__place_button"
+                class="content__place content__button"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
                 >Compra esta obra como NFT</a
               >
               <!-- </button> -->
             </div>
 
-            <div class="content__place content__place_paragraphs">
-              <p class="content__place content__place_paragraph">
-                Muramvya es una de las 18 provincias de Burundi. Durante la
-                época del reino, Muramvya fue su capital; y en 2017, gracias a
-                su paisaje cultural y natural, se añadió a la Lista provisional
-                de patrimonio mundial de la UNESCO. Se encuentra ubicada en el
-                centro de Burundi, entre las capitales política y económica del
-                país.
-              </p>
-              <p class="content__place content__place_paragraph">
-                Su clima es más bien frío durante la noche, pero durante el día,
-                podrías pensar que estás en el paraíso. A sus 2,665 metros
-                (8,743 ft) sobre el nivel del mar, el Monte Teza es uno de los
-                lugares más fríos de la provincia. Pero es justo esa brisa
-                fresca la que da pie a una de las más grandes plantaciones de té
-                y café del país, y que representa la mayoría de las
-                exportaciones de Burundi.
-              </p>
-              <p class="content__place content__place_paragraph">
-                El Parque nacional de Kibira, una de las mayores reservas de
-                vida silvestre para los simios, ocupa parte de cuatro
-                provincias, incluyendo Muramvya. Este parque nacional se
-                encuentra en las cúspides de las hermosas montañas de la
-                Divisoria Congo-Nilo, cuyas alturas oscilan entre 1,550 y 2,660
-                metros. Está lleno de hermosa vegetación, y es una fuente para
-                los diversos ríos y arroyos que proporcionan agua alrededor del
-                país.
-              </p>
+            <div class="content__paragraphs">
+              <div class="content__pcontainer">
+                <p class="content__paragraph">
+                  Muramvya es una de las 18 provincias de Burundi. Durante la
+                  época del reino, Muramvya fue su capital; y en 2017, gracias a
+                  su paisaje cultural y natural, se añadió a la Lista
+                  provisional de patrimonio mundial de la UNESCO. Se encuentra
+                  ubicada en el centro de Burundi, entre las capitales política
+                  y económica del país.
+                </p>
+
+                <p class="content__paragraph">
+                  Su clima es más bien frío durante la noche, pero durante el
+                  día, podrías pensar que estás en el paraíso. A sus 2,665
+                  metros (8,743 ft) sobre el nivel del mar, el Monte Teza es uno
+                  de los lugares más fríos de la provincia. Pero es justo esa
+                  brisa fresca la que da pie a una de las más grandes
+                  plantaciones de té y café del país, y que representa la
+                  mayoría de las exportaciones de Burundi.
+                </p>
+                <p class="content__paragraph">
+                  El Parque nacional de Kibira, una de las mayores reservas de
+                  vida silvestre para los simios, ocupa parte de cuatro
+                  provincias, incluyendo Muramvya. Este parque nacional se
+                  encuentra en las cúspides de las hermosas montañas de la
+                  Divisoria Congo-Nilo, cuyas alturas oscilan entre 1,550 y
+                  2,660 metros. Está lleno de hermosa vegetación, y es una
+                  fuente para los diversos ríos y arroyos que proporcionan agua
+                  alrededor del país.
+                </p>
+              </div>
             </div>
           </div>
           <div class="content__place">
-            <h2 class="content__place content__place_title">Puebla,México</h2>
-            <h3 class="content content__subtitle">
+            <h2 class="content__title">Puebla,México</h2>
+            <h3 class="content__subtitle">
               Jerjes Molina, Diseñador y Desarrollador Web
             </h3>
             <div class="content content__container">
@@ -262,51 +257,52 @@
                 class="content__place content__place_image"
                 alt="Puebla, México"
               />
-              <!-- <button class="place__button"> -->
               <a
-                class="content__place content__place_button"
+                class="content__button"
                 href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
                 >Compra esta obra como NFT</a
               >
-              <!-- </button> -->
             </div>
 
-            <div class="content__place content__place_paragraphs">
-              <p class="content__place content__place_paragraph">
-                Puebla de Zaragoza, oficialmente llamada Heroica Puebla de
-                Zaragoza, o simplemente Puebla, es una metrópoli mexicana,
-                cabecera del municipio de Puebla, capital y ciudad más poblada
-                del estado de Puebla, así como de la Zona Metropolitana de
-                Puebla-Tlaxcala y la cuarta ciudad más poblada del país. La
-                ciudad también es conocida como Puebla de los Ángeles o Ciudad
-                de los Ángeles. (antiguo nombre de la ciudad), según la leyenda
-                que dice que fue exactamente trazada por los ángeles, por lo
-                cual se le denomina Angelópolis.
-              </p>
-              <p class="content__place content__place_paragraph">
-                La presencia humana en Puebla se remonta a 32,000 años antes del
-                presente. Como fruto de miles de años de desarrollo cultural
-                surgieron en el territorio poblano varias de las culturas
-                mesoamericanas. El actual territorio de Puebla fue uno de los
-                principales escenarios de las culturas prehispánicas como la
-                mexica, tolteca, olmeca, totonaca, nahua, mixteca, zapoteca y
-                otomí, entre otras. Durante 300 años, la totalidad del actual
-                territorio formó parte del Virreinato de Nueva España, siendo
-                una de las regiones más importantes del Virreinato en el Imperio
-                Español.
-              </p>
-              <p class="content__place content__place_paragraph">
-                La Batalla de Puebla es uno de los momentos más emblemáticos en
-                la historia de México, pues permitió derrotar a uno de los
-                ejércitos más poderosos de la época, el de Francia. Sin embargo,
-                aunque la victoria fue simbólica, las fuerzas francesas lograron
-                tomar el control del país meses después. El 5 de mayo se celebra
-                con orgullo, pero esa victoria no impidió la invasión. México no
-                pudo evitar la ocupación francesa, que culminó con la
-                instauración del imperio de Maximiliano de Habsburgo. Hoy, la
-                fecha sigue siendo un símbolo de resistencia, recordando la
-                valentía de los mexicanos en la lucha que se libró en Puebla.
-              </p>
+            <div class="content__paragraphs">
+              <div class="content__pcontainer">
+                <p class="content__paragraph">
+                  Puebla de Zaragoza, oficialmente llamada Heroica Puebla de
+                  Zaragoza, o simplemente Puebla, es una metrópoli mexicana,
+                  cabecera del municipio de Puebla, capital y ciudad más poblada
+                  del estado de Puebla, así como de la Zona Metropolitana de
+                  Puebla-Tlaxcala y la cuarta ciudad más poblada del país. La
+                  ciudad también es conocida como Puebla de los Ángeles o Ciudad
+                  de los Ángeles. (antiguo nombre de la ciudad), según la
+                  leyenda que dice que fue exactamente trazada por los ángeles,
+                  por lo cual se le denomina Angelópolis.
+                </p>
+                <p class="content__paragraph">
+                  La presencia humana en Puebla se remonta a 32,000 años antes
+                  del presente. Como fruto de miles de años de desarrollo
+                  cultural surgieron en el territorio poblano varias de las
+                  culturas mesoamericanas. El actual territorio de Puebla fue
+                  uno de los principales escenarios de las culturas
+                  prehispánicas como la mexica, tolteca, olmeca, totonaca,
+                  nahua, mixteca, zapoteca y otomí, entre otras. Durante 300
+                  años, la totalidad del actual territorio formó parte del
+                  Virreinato de Nueva España, siendo una de las regiones más
+                  importantes del Virreinato en el Imperio Español.
+                </p>
+                <p class="content__paragraph">
+                  La Batalla de Puebla es uno de los momentos más emblemáticos
+                  en la historia de México, pues permitió derrotar a uno de los
+                  ejércitos más poderosos de la época, el de Francia. Sin
+                  embargo, aunque la victoria fue simbólica, las fuerzas
+                  francesas lograron tomar el control del país meses después. El
+                  5 de mayo se celebra con orgullo, pero esa victoria no impidió
+                  la invasión. México no pudo evitar la ocupación francesa, que
+                  culminó con la instauración del imperio de Maximiliano de
+                  Habsburgo. Hoy, la fecha sigue siendo un símbolo de
+                  resistencia, recordando la valentía de los mexicanos en la
+                  lucha que se libró en Puebla.
+                </p>
+              </div>
             </div>
           </div>
         </section>
