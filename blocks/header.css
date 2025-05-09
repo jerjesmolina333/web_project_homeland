@@ -55,3 +55,17 @@
     font-weight: 30;
   }
 }
+
+@media screen AND (max-width: 229px) {
+  .header__title {
+    height: auto;
+    font-size: 12px;
+    line-height: 50px;
+    height: 10vh;
+  }
+  .header__subtitle {
+    font-size: 5px;
+    line-height: 10px;
+    font-weight: 30;
+  }
+}
