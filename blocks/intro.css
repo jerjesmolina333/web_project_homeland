@@ -4,7 +4,7 @@
 }
 .intro__title {
   font-family: Inter, Arial, sans-serif;
-  font-size: 54px;
+  font-size: 44px;
   font-weight: 900;
   line-height: 1.5;
 }
@@ -39,7 +39,8 @@
 
 @media screen AND (max-width: 768px) {
   .intro__title {
-    font-size: 34px;
+    font-size: 25px;
+    /* border: 1px aqua solid; */
   }
   .intro__cita {
     font-size: 12px;
@@ -56,11 +57,6 @@
   .intro__texto {
     font-size: 10px;
     font-weight: 20;
-  }
-  .intro__title {
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 1.5;
   }
 }
 @media screen AND (max-width: 320px) {

@@ -6,15 +6,29 @@
 }
 .page__logo {
   width: 30vw;
+  height: 200px;
   /* height: 68px; */
-  margin: 0 auto 91px;
-  padding-top: 34px;
-  align-content: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* align-content: center; */
 }
 .page__logo-container {
-  width: 45vw;
-  height: 100px;
+  width: 30vw;
+  height: 200px;
   /* border: 1px blueviolet solid; */
   margin: 0 auto;
+  padding-bottom: 30px;
   text-align: center;
+}
+@media screen AND (max-width: 768px) {
+  .page__logo-container {
+    height: 100px;
+  }
+}
+
+@media screen AND (max-width: 560px) {
+  .page__logo-container {
+    margin-bottom: 10px;
+  }
 }
