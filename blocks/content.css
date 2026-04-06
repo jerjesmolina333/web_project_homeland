@@ -42,7 +42,7 @@
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.5;
   letter-spacing: 0;
   /* border: 1px blue solid; */
   display: flex;
@@ -67,6 +67,7 @@
 .content__image {
   width: 40vw;
   height: calc(40vw * 1.05);
+  object-fit: fill;
 }
 .content__image:hover {
   opacity: 0.5;
@@ -134,10 +135,10 @@
   font-family: Inter;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.2;
   letter-spacing: 0;
   height: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 /* MEDIA QUERYS */
@@ -210,7 +211,7 @@
 }
 @media screen AND (max-width: 560px) {
   .content__title {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 200;
     line-height: 1;
     /* border: 1px aqua solid; */
@@ -232,7 +233,7 @@
   }
   .content__button {
     font-size: 6px;
-    line-height: 18px;
+    line-height: 2.2;
     height: 5vh;
   }
   .content__grid {
@@ -246,7 +247,7 @@
     /* border: 1px yellowgreen solid; */
   }
   .content__title {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 100;
     line-height: 1;
     /* border: 2px blue solid; */
