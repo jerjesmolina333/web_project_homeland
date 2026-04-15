@@ -17,6 +17,15 @@
   line-height: 1.1;
   letter-spacing: 0;
 }
+.footer__redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.footer__redes-icon {
+  width: 104px;
+}
 
 @media screen AND (max-width: 320px) {
   .footer__author {
